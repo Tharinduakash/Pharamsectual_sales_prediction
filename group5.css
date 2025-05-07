@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+  
+}
+
+.wrapper{
+  display: flex;
+  height: 120vh;
+  justify-content: center;
+  align-items: center;
+  background: url(m1.jpg);
+  background-size: cover;
+  
+  
+
+}
+
+.rectangle{
+  
+ width: 100%;
+ max-width: 700px;
+ max-height: 500px;
+ align-items: center;
+ padding: 10px;
+ margin: 10px;
+ 
+ background: rgba(0, 17, 59, 0.5);
+ 
+ border-radius: 20px;
+ box-shadow: 5px 10px 15px rgb(0, 0, 0);
+}
+
+.wrapper label{
+  
+  
+  margin-top: 25%;
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+  font-family: sans-serif;
+  color: aliceblue;
+  text-shadow: 2px 2px 2px black;
+  
+
+}
+
+
+
+#category:hover{
+  
+  background: white;
+  border-radius: 2px ;
+  
+}
+
+
+.wrapper input{
+  border-radius: 2px;
+  box-shadow: 1px 1px black;
+  font-size: 15px;
+
+  
+  
+  
+ 
+  
+   
+}
+.wrapper input:hover{
+  background: white;
+  border-radius: 2px rgb(0, 0, 0);
+}
+
+.wrapper button{
+  justify-content: center;
+  align-items: center;
+  width: 32%;
+  margin: 36px;
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 10px;
+  border-color: rgb(0, 0, 0);
+  background: rgb(1, 1, 60);
+  color: aliceblue;
+  
+  
+
+
+ 
+}
+.wrapper button:hover{
+  background: rgba(11, 80, 117, 0.45);
+  color: aliceblue;
+
+
+}
+.form-title{
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 6px;
+  color: aliceblue;
+  text-shadow: 3px 3px 5px black;
+  border-bottom: solid 3px white;
+  margin: 10px;
+  
+}
+
+
+
+
+/*main page */
+.container{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 120vh;
+  background-position: center;
+  background: url(m6.jpg);
+  background-size: cover;
+  
+  
+}
+
+.content-section{
+  width: auto;
+  height: auto;
+  text-align: left;
+  margin-top: 65%;
+  font-size: 28px;
+  color: rgb(8, 1, 77);
+  position: relative;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  padding-left: 0px;
+  letter-spacing: 1px;
+  line-height: 50px;
+  text-shadow: 3px 2px 5px rgb(255, 255, 255);
+  
+  
+}
+.Start{
+  width: 140px;
+  height: 45px;
+  background: linear-gradient(to left,rgb(9, 2, 74),rgba(4, 4, 161, 0.6)50%,rgba(15, 74, 235, 0.683),rgba(4, 4, 161, 0.6)50%,rgb(9, 2, 74));
+  border: 1px;
+  margin-top: 10px;
+  margin-left: 0px;
+  border-radius: 10px;
+  color: aliceblue;
+  font-size: 24px;
+  box-shadow: 5px 7px 10px rgb(0, 0, 0);
+  font-family: sans-serif;
+  font-style: initial;
+}
+
+
+
+.Start:hover{
+  background: rgba(4, 58, 115, 0.418);
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 1px black;
+  font-family: Arial, Helvetica, sans-serif;
+
+
+}
+.m2{
+  width: 200px;
+  height: 250px;
+  float: right;
+  float: bottom;
+  
+  right: 6%;
+  display: inline-block;
+  position: absolute;
+  size: cover;
+}
+
+
+/* Style the links inside the sidenav */
+#mySidenav a {
+  position: absolute; /* Position them relative to the browser window */
+  left: -300px; /* Position them outside of the screen */
+  transition: 0.9s; /* Add transition on hover */
+  padding: 15px; /* 15px padding */
+  width: 350px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: white; /* White text color */
+  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+  box-shadow: 2px 5px 8px black;
+  text-align: center;
+}
+
+#mySidenav a:hover {
+  left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+.facebook {
+  top: 100px;
+  background-color: #0f22b1;
+}
+
+
+.twitter{
+  top: 160px;
+  background-color: #041c75; /* Red */
+}
+
+.google{
+  top: 220px;
+  background-color: #09004d /* Light Black */
+}
+
+.fa-facebook{
+  float: right;
+  right: 20%;
+}
+.fa-twitter{
+  float: right;
+  right: 15%;
+
+}
+.fa-google{
+  float: right;
+  right: 15%;
+
+}
+
+/* Navbar links */
+.navbar a {
+  display: block;
+  text-align: center;
+  float: left;
+  padding:6px;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 3px 5px black;
+  
+  
+  
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  color: #00a6e7;
+  
+}
+
+/* Current/active navbar link */
+.active {
+  background-color: #ffffff;
+}
+
+
+
+.note{
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+
+
+.para{
+  font-size: 16px;
+}
